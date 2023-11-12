@@ -14,7 +14,7 @@ const Checkout = () => {
 
   return (
     <div className="container mx-auto mt-10">
-      <div className="mt-5 flex justify-between m-8">
+      <div className="mt-5 md:flex md:justify-between m-8">
         <Link
           to="/"
           className="btn btn-sm  bg-blue-500 text-white hover:bg-blue-500"
@@ -23,7 +23,7 @@ const Checkout = () => {
         </Link>
         <p className="text-xl font-semibold">Total: ${totalAmount}</p>
       </div>
-      <div className="grid grid-cols-3 gap-4 m-10">
+      <div className="md:grid md:grid-cols-3 gap-4 m-10">
         {cartItems.map((item) => (
           <div key={item.id} className="border p-4">
             <div className="flex justify-between">
