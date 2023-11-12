@@ -8,7 +8,6 @@ import './App.css'; // Import Tailwind CSS
 
 import ProductList from './components/ProductList';
 import Checkout from './components/Checkout';
-
 function App() {
   return (
     <Provider store={store}>
