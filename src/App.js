@@ -1,10 +1,9 @@
-// src/App.js
 import React from 'react';
-import { BrowserRouter as Router, Route, Routes } from 'react-router-dom'; // Update the import statement
+import { BrowserRouter as Router, Route, Routes } from 'react-router-dom'; 
 
 import { Provider } from 'react-redux';
 import store from './store';
-import './App.css'; // Import Tailwind CSS
+import './App.css'; 
 
 import ProductList from './components/ProductList';
 import Checkout from './components/Checkout';
