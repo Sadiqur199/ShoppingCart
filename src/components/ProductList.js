@@ -40,7 +40,7 @@ const ProductList = () => {
 
   return (
     <div className="container mx-auto mt-10">
-      <div className="flex justify-between m-10">
+      <div className="md:flex md:justify-between m-10">
         <h1 className="text-3xl font-bold mb-10">Our Product</h1>
         <Link
           to="/checkout"
